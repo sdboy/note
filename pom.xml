@@ -2,6 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<modules>
+		<module>note-common</module>
+		<module>note-bean</module>
+		<module>note-controller</module>
+		<module>note-dao</module>
+		<module>note-service</module>
+		<module>note-web</module>
+		<module>note-dao</module>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -11,7 +20,7 @@
 	<groupId>com.sdboy</groupId>
 	<artifactId>note</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<name>note</name>
 	<description>Demo project for Spring Boot</description>
 

@@ -1,5 +1,11 @@
 HELP.md
 /target/
+/note-bean/target/
+/note-common/target/
+/note-controller/target/
+/note-dao/target/
+/note-service/target/
+/note-web/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
